@@ -2,36 +2,43 @@ body {
   background: #fafafa;
 }
 
-.conteudoCentral,
-.conteudoLateralDireita,
-.conteudoLateralEsquerda {
-  min-height: 100vh;
-  display: flex;
-  width: 30vw;
-}
-
-
-.conteudoLateralEsquerda {
-  background: red;
-  width: 15vw;
-
-}
-
-.conteudoLateralDireita {
-  background: blue;
-  width: 20vw;
-}
-
-.conteudoCentral {
-  background: rgb(220, 201, 32);
-  width: 60vw;
-}
-
 #root {
   display: flex;
   flex-direction: row;
   min-height: 100vh;
 }
+
+.conteudoCentral,
+.conteudoLateralDireita,
+.conteudoLateralEsquerda {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+
+.conteudoLateralEsquerda {
+  background: #fafafa;
+  width: 15vw;
+  justify-content: space-between
+  
+}
+
+.conteudoLateralDireita {
+  background: rgb(164, 112, 224);
+  width: 20vw;
+}
+
+.conteudoCentral {
+  background: rgb(253, 241, 127);
+  width: 60vw;
+}
+
+li {
+  list-style-type: none;
+}
+
 
 
 
