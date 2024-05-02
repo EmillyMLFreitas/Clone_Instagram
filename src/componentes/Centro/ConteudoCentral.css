@@ -1,0 +1,18 @@
+.ConteudoCentral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFA;
+}
+
+.ConteudoCentral{
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer e Edge */
+}
+
+.ConteudoCentral::-webkit-scrollbar {
+  display: none;
+}

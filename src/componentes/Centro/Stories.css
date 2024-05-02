@@ -1,0 +1,42 @@
+.Stories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 15px;
+}
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.imagem-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 64px;
+    height: 64px;
+
+    background-color: aqua;
+    border-radius: 50%;
+    background-image: linear-gradient(221deg, #D300C5 14.62%, #FB5E23 48.17%, #FFCE40 81.72%);
+    background-origin: border-box;
+}
+.Story img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.Story p{
+    margin-top: 5px;
+    font-size: 12px;
+}

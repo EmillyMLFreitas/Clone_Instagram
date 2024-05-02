@@ -1,0 +1,41 @@
+.sugestoes{
+    margin-top: 15px;
+}
+
+.sugText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.sugsDesc2{
+    font-size: 12px;
+    font-weight: 600;
+}
+.sugsDesc {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+}
+
+.footerDesc1, .footerDesc2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #c7c7c7;
+    width: 300px;
+}
+
+.footerDescSug {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seguir-azul{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095f6;
+}
+.seguir-azul:hover{
+    color: #00376b;
+}
