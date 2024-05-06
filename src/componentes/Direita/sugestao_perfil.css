@@ -12,6 +12,7 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .perfil-sugestao-descricao p {
@@ -22,6 +23,7 @@ body {
 
 .nomePerfilSug{
     font-weight: 600;
+    cursor: pointer;
 }
 .descPerfilSug{
     font-size: 12px;

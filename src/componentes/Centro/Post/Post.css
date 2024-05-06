@@ -4,9 +4,10 @@
 
 
 .Post .card-body img {
-   width: 100%;
+    width: 100%;
 }
-.Post .imagem-perfil{
+
+.Post .imagem-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +17,8 @@
     background-image: linear-gradient(221deg, #D300C5 14.62%, #FB5E23 48.17%, #FFCE40 81.72%);
     background-origin: border-box;
 }
-.Post .imgUser{
+
+.Post .imgUser {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -25,65 +27,84 @@
 
 
 
-.Post .imgSrc{
+.Post .imgSrc {
     border-radius: 4px;
     border: 1px solid #DBDBDB;
 }
 
-.Post{
+.Post {
     margin: 15px;
-    border-bottom: 2px solid #e2e1e1;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c8c8c8;
 }
 
-.card-header{
+.card-header {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 10px 0px;
 }
 
-.user{
+.user {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    cursor: pointer;
 }
-.horas{
+
+.tempo {
     font-weight: 500;
     color: #8c8c8c;
 }
-.more{
+
+.more {
     display: flex;
     align-items: center;
 }
 
-.interactions{
+.interactions {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
-   ;
 }
 
-.like{
+.like {
     display: flex;
     flex-direction: row;
-    align-items: center; 
-    gap: 10px
+    align-items: center;
+    gap: 12px
 }
-.tosave{
+
+.tosave {
     display: flex;
     align-items: center;
 }
 
- h3{
-    font-size: 14px ;
+h3 {
+    font-size: 14px;
     font-weight: 600;
- }   
+}
 
-.card-body p{
-    padding:  20px 0px 20px 0px ;
+.card-body p {
+    padding: 5px 0px 5px 0px;
     font-size: 14px;
     font-weight: 400;
 }
 
+.title-body {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.comments {
+    color: #737373;
+}
+
+.addComment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

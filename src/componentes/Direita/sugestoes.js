@@ -1,33 +1,39 @@
 import SugestaoPerfil from "./sugestao_perfil"
 import "./sugestoes.css"
+import Avatar from '../../imagens/emy.png';
+import Avatar1 from '../../imagens/avatar_sug_kimetsu.png';
+import Avatar2 from '../../imagens/avatar_sug_skala.png';
+import Avatar3 from '../../imagens/avatar_sug1.png';
+import Avatar4 from '../../imagens/avatar_sug2.png';
+import Avatar5 from '../../imagens/avatar_sug3.png';
 
 var listaSugestoes = [
     {
-        nomeSug: "Gustavo",
-        urlSug: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nomeSug: "kimetsu.no.yaiba_br",
+        urlSug: Avatar1
     },
     {
-        nomeSug: "Gabriel",
-        urlSug: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nomeSug: "skalacosmeticos",
+        urlSug: Avatar2
     },
     {
-        nomeSug: "Emilly",
-        urlSug: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nomeSug: "Sofia",
+        urlSug: Avatar3
     },
     {
-        nomeSug: "Gustavo",
-        urlSug: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nomeSug: "Fernanda",
+        urlSug: Avatar4
     },
     {
-        nomeSug: "Gabriel",
-        urlSug: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nomeSug: "Maria",
+        urlSug: Avatar5
     }
 ]
 
 export default function Sugestoes() {
     return (
         <div className="sugestoes">
-            <SugestaoPerfil imgSug="https://avatars.githubusercontent.com/u/48858978?v=4"
+            <SugestaoPerfil imgSug={Avatar}
                 nomePerfilSug="emillyfreitas29"
                 descPerfilSug="Emilly Freitas 💜"
                 azulSug="Mudar" />
@@ -44,17 +50,8 @@ export default function Sugestoes() {
                 })
             }
             <div className="footerDescSug">
-                <p className="footerDesc1">Sobre
-                    Ajuda
-                    Imprensa
-                    API
-                    Carreiras
-                    Privacidade
-                    Termos
-                    Localizações
-                    Idioma
-                    Meta Verified</p>
-                <p className="footerDesc2">© 2024 INSTAGRAM FROM EMY</p>
+                <p className="footerDesc1">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Idioma • Meta Verified</p>
+                <p className="footerDesc2">© 2024 INSTAGRAM FROM EMILLY</p>
             </div>
 
         </div>

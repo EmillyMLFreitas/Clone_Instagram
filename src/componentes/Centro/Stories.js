@@ -1,39 +1,47 @@
 import Story from "./Story"
 import './Stories.css'
+import Story1 from '../../imagens/avatar_gabriel.jpg';
+import Story2 from '../../imagens/avatar_padroeira.png';
+import Story3 from '../../imagens/avatar_gustavo.jpg';
+import Story4 from '../../imagens/avatar_proa.png';
+import Story5 from '../../imagens/avatar_gabi.jpg';
+import Story6 from '../../imagens/avatar_nasa.png';
+import Story7 from '../../imagens/avatar_senac.png';
+import Story8 from '../../imagens/avatar_etec.png';
 
 var listaUsuarios = [
     {
-        nome: "Maria",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "Gabriel Augusto",
+        url: Story1
     },
     {
-        nome: "Jailson",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "padroeira",
+        url: Story2
     },
     {
-        nome: "Arthur",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "Gustavo Salles",
+        url: Story3
     },
     {
-        nome: "Helena",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "instituto.proa",
+        url: Story4
     },
     {
-        nome: "Minions",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "Gabrielle Correa",
+        url: Story5
     },
     {
-        nome: "Helena",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "nasa",
+        url: Story6
     },
     {
-        nome: "Minions",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "senactito",
+        url: Story7
     }
     ,
     {
-        nome: "Helena",
-        url: "https://avatars.githubusercontent.com/u/48858978?v=4"
+        nome: "etecsaomateus",
+        url: Story8
     }
 ]
 
